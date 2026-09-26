@@ -1,0 +1,12 @@
+
+# This project uses Python's standard library only.
+# No external packages are required.
+#
+# Standard library modules used:
+# hashlib  - SHA-256 cryptographic hashing
+# json     - serialising block and transaction data
+# time     - creating block timestamps
+# copy     - making independent copies of blocks and chains
+# dataclasses - creating the Node class
+# typing   - type hints
+
