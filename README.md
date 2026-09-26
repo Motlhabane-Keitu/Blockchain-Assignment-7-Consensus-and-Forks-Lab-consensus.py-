@@ -11,13 +11,13 @@ The assignment consists of three parts, weighted **60% / 20% / 20%**.
 
 ### Three-Node Simulation
 
-Simulate at least three nodes, named A, B and C. Each node maintains its own local copy of the blockchain and can temporarily hold a different chain.
+Start by simulating at least three nodes, named A, B and C. Each node maintains its own local copy of the blockchain and can temporarily hold a different chain.
 
 ### Creating and Resolving a Fork
 
 Create two valid competing blocks or chains that share a common ancestor.
 
-The simulation must demonstrate how nodes resolve the fork using either:
+The simulation demonstrate how nodes resolve the fork using either:
 
 - **Longest-chain rule:** Select the valid chain containing the most blocks.
 - **Heaviest-work rule:** Select the valid chain with the greatest cumulative proof of work, if cumulative PoW is implemented.
